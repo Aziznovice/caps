@@ -1,0 +1,97 @@
+/* CSS for the website overview page */
+
+/* Header */
+
+header {
+    background-color: #1b5e97;
+    padding: 0px;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main section */
+  
+  section#main {
+    padding: 10px;
+  }
+  
+  section#main .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  section#main .row {
+    margin-bottom: 15px;
+  }
+  
+  section#main .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+  
+  section#main .col-md-9 {
+    float: right;
+    width: 75%;
+  }
+
+  .div.col-sm-12 {
+
+    padding: 100px 15px;
+  }
+  
+  section#main .panel {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  
+  section#main .panel-heading {
+    background-color: maroon;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  section#main .panel-body {
+    padding: 15px;
+  }
+  
+  section#main .dash-box {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    width: 700px;
+    padding-left: 100%;
+  }
+  
+  

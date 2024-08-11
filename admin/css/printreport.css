@@ -1,0 +1,111 @@
+.state-university {
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 50px;
+    text-align: center;
+}
+.state-university p {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+.college {
+    background-color: white;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.college h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.container {
+    position: relative;
+  }
+
+  .logo {
+    position: sticky;
+    bottom: 100;
+    left: 0;
+    float: right;
+    margin: 16px 0px 0px 20px;
+  }
+  .logo1 {
+    float: left;
+    margin: 16px 20px 0px 0px;
+    bottom: 100;
+  }
+
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+
+  .logo1 img {
+    width: 150px;
+    height: auto;
+  }
+
+  #reportList {
+    margin: 0 auto;
+  }
+
+  .parent-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #reportList {
+    margin: 0 auto;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: none;
+    border:none;
+}
+
+.print-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #0056b3;
+}
+
+
+#approvalText {
+  border: none;
+  margin-bottom: 0px;
+  width: 40%;
+}
+
+.approval-signature {
+  text-decoration: underline;
+  display: block;
+  margin-left: 50%;
+}
+
+@media print {
+  .print-buttons {
+      display: none;
+  }
+}

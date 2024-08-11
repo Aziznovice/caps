@@ -1,0 +1,68 @@
+/* styles.css */
+/* Add the background image */
+body {
+    background-image: url('design5.png');
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; /* Center the background image horizontally and vertically */
+    background-size: cover;
+   
+    /* Add other background properties as needed */
+}
+/* Apply styles to the login container with transparency */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha (0.7) to control transparency */
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+
+    /* Adjust the size here */
+    width: 350px; /* Set the width as desired */
+    max-width: 80%; /* To make it responsive up to a certain width */
+    /* margin: 196px auto; Center the container horizontally */
+
+    /* You can adjust the height, if needed */
+    /* height: 300px; */
+}
+
+/* Style the login form header */
+.login-container h1 {
+    color: #333;
+}
+
+/* Style the form group */
+.form-group {
+    margin: 20px 0;
+}
+
+/* Style labels for input fields */
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Style input fields */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the login button */
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the login button on hover */
+form button:hover {
+    background-color: #0056b3;
+}

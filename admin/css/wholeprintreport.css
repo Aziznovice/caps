@@ -1,0 +1,168 @@
+.state-university {
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 50px;
+    text-align: center;
+}
+.state-university p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+.college {
+    background-color: white;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.college h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.container {
+    position: relative;
+  }
+
+  .logo {
+    position: sticky;
+    bottom: 100;
+    left: 0;
+    float: right;
+    margin: 16px 0px 0px 20px;
+  }
+  .logo1 {
+    float: left;
+    margin: 16px 20px 0px 0px;
+    bottom: 100;
+  }
+
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+
+  .logo1 img {
+    width: 150px;
+    height: auto;
+  }
+
+  #reportList {
+    margin: 0 auto;
+  }
+
+  .parent-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #reportList {
+    margin: 0 auto;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+} 
+
+.back-button {
+    display: none;
+    border:none;
+}
+
+.print-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#approvalText {
+  border: none;
+  margin-bottom: 0px;
+  width: 40%;
+}
+
+.approval-signature {
+  text-decoration: underline;
+  display: block;
+  margin-left: 50%;
+}
+
+@media print {
+  .print-buttons {
+      display: none;
+  }
+}
+
+/* styles.css */
+
+.container2 {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #reportList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #reportList th, #reportList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #reportList thead {
+    background-color: #f2f2f2;
+  }
+  
+  #reportList th {
+    background-color: maroon;
+    color: white;
+  }
+  
+/* styles.css */
+
+@media print {
+  #Searchinput {
+    display: none !important; 
+  }
+}
+
+   
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-left: 30px !important;
+  padding-right: 40px !important;
+}
+@media print {
+  #reportList_filter {
+    display: none !important;
+  }
+}
+
+@media print {
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+}
